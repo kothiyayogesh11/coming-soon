@@ -12035,5 +12035,5 @@ var yourDate = "2020-07-03" // Your date here
                 d = t().countdown(e);
             d = Math.floor(1.1574074 * d.value * Math.pow(10, -8)), s.innerText = d < 10 && d >= 0 ? "0" + d : d < 0 ? "00" : d, a.hours < 10 && a.hours >= 0 ? n.innerText = "0" + a.hours : n.innerText = a.hours, a.minutes < 10 ? r.innerText = "0" + a.minutes : r.innerText = a.minutes, a.seconds < 10 ? i.innerText = "0" + a.seconds : i.innerText = a.seconds, d < 0 && a.hours < 0 && (s.innerText = "00", n.innerText = "00", r.innerText = "00", i.innerText = "00")
         }, 1e3)
-    }(yourDate)
+    }(new Date("2023-06-17"))
 }]);
