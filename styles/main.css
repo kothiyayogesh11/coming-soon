@@ -112,6 +112,7 @@ h1,
 @media screen and (max-width: 576px) {
   .container .right .mainInfo {
     text-align: center;
+    align-items: center;
   }
 }
 
@@ -133,7 +134,7 @@ h1,
 
 @media screen and (max-width: 576px) {
   .container .right .mainInfo img {
-    width: 100%;
+    max-height: 100px;
     margin-left: 0;
   }
 }
